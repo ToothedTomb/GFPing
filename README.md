@@ -4,7 +4,7 @@ Ping like program but with random emojis on every ping. This program is used to 
 # Screenshots of the program:
 Running with internet:
 
-![Screenshot From 2025-02-18 13-28-43](https://github.com/user-attachments/assets/73a7a7ab-feed-471e-89bd-8494ee716897)
+![Screenshot From 2025-02-18 14-25-16](https://github.com/user-attachments/assets/db7c38c1-c6e8-416e-9c9b-00202d669bc7)
 
 Running without internet:
 
