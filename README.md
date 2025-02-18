@@ -11,7 +11,9 @@ Running without internet:
 ![Screenshot From 2025-02-18 13-28-53](https://github.com/user-attachments/assets/28815d5c-71aa-4c95-9f6f-fc1b2878fe87)
 
 # Useage:
-gfping www.google.com
+gfping <hostname>
+
+Example: gfping www.google.com
 
 # Compile:
 cargo build ----release
