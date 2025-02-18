@@ -39,7 +39,7 @@ fn main() -> std::io::Result<()> {
     });
 
     let socket = Socket::new(Domain::IPV4, Type::DGRAM, Some(Protocol::ICMPV4))?;
-    println!("😍 Welcome to GFPing:\n");
+    println!("😍 Welcome to GFPing!\n");
     println!("😊 We are now pinging: {} ({})\n", hostname, target);
 
     for i in 1..=10 {
