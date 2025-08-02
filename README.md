@@ -16,7 +16,7 @@ gfping <hostname>
 Example: gfping www.google.com
 
 # Compile:
-cargo build ----release
+cargo build --release
 # How to install:
 Go to /target/release and then use the install.sh script there. 
 You can also go to releases on this Github and install the allready compiled software and use the install.sh in the same folder as the compiled software. 
