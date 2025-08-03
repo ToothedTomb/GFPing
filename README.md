@@ -17,8 +17,12 @@ Example: gfping www.google.com
 
 # Compile:
 cargo build --release
+
+# Make into a Debian package:
+Install cargo-deb to begin with -  cargo install cargo-deb
+Now go to the project folder and run - run cargo-deb
+Now you have a Debian package. 
 # How to install:
-Go to /target/release and then use the install.sh script there. 
-You can also go to releases on this Github and install the allready compiled software and use the install.sh in the same folder as the compiled software. 
+Go to /target/release and then use the install.sh script there or you can download the Debian package (only for Arm64 at the moment). 
 # Credits:
 Joanthan Steadman. :)
