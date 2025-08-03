@@ -129,5 +129,5 @@ fn get_emoji(seq: u16) -> &'static str {
     "🎣", "🤿", "🥅", "🏒", "🏑", "🏏", "🪀", "🪃", "♟️", "🛶"];
     let mut rng = thread_rng();
     //emojis[(seq as usize) % emojis.len()
-    *emojis.choose(&mut rng).unwrap_or(&"🌈") // Pick a random emoji]
+    *emojis.choose(&mut rng).unwrap_or(&" 🌈") // Pick a random emoji]
 }
